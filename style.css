@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(248, 215, 152)
+
+}
+.logo-text{
+    display: flex;
+    background-color: rgb(248, 215, 152);
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+.item{
+    width: 300px;
+    mix-blend-mode: multiply;
+    margin-left:40px ;
+}
+.btn btn-primary{
+    
+}
+<style>
+        .logo-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        .logo-text span {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .logo-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .logo-text p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .logo-text img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .logo-text {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .logo-text span {
+                width: 100%;
+                padding: 0;
+            }
+
+            .logo-text h1 {
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+
+            .logo-text p {
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }
+        }
